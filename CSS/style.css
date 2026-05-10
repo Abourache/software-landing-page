@@ -855,7 +855,6 @@ main {
     }
 }
 
-/* حركة الظهور من الأسفل (للكروت مثلاً) */
 @keyframes slideUp {
     from {
         opacity: 0;
@@ -868,7 +867,6 @@ main {
     }
 }
 
-/* حركة الظهور من اليسار */
 @keyframes slideInLeft {
     from {
         opacity: 0;
@@ -881,7 +879,6 @@ main {
     }
 }
 
-/* حركة الظهور من اليمين */
 @keyframes slideInRight {
     from {
         opacity: 0;
@@ -894,7 +891,6 @@ main {
     }
 }
 
-/* حركة التكبير التدريجي (لصور الأقسام) */
 @keyframes zoomIn {
     from {
         opacity: 0;
@@ -907,7 +903,6 @@ main {
     }
 }
 
-/* قسم الكروت (Tasks): تظهر من الأسفل */
 .header-lists,
 .card,
 .Testimontial-header,
@@ -921,7 +916,6 @@ main {
     animation-range: entry 10% cover 30%;
 }
 
-/* قسم المميزات (Excellent): الصورة تظهر من اليسار والكلام من اليمين */
 .left-side-Organize {
     animation: slideInLeft linear forwards;
     animation-timeline: view();
@@ -934,14 +928,12 @@ main {
     animation-range: entry 5% cover 35%;
 }
 
-/* قسم التنظيم (Organize): تأثير زووم على الصورة */
 .CTA {
     animation: zoomIn linear forwards;
     animation-timeline: view();
     animation-range: entry 5% cover 30%;
 }
 
-/* قسم المدونة (Blog): كل بوكس يظهر بتأثير slideUp */
 .box {
     animation: slideUp linear forwards;
     animation-timeline: view();
